@@ -11,7 +11,7 @@ public class LeisureService {
         int balance = 0;
         // variable for leisure month counting
         int count = 0;
-        for (int i=0; i < 12 ; i++) {
+        for (int month=0; month < 12 ; month++) {
             if (balance > threshold) {
                 count += 1;
                 balance = (balance - expenses) / 3;}
